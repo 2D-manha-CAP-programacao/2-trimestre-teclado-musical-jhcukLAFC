@@ -1,6 +1,6 @@
 .imagem{
 
-height:144px;
+height:122px;
 
 }
 
@@ -14,13 +14,13 @@ height:144px;
 
 body{
 
-    background-color: var(--azul);
+    background: linear-gradient( #007bff, #ffffff);
     align-items: center;
     display:flex;
     justify-content: center;
     flex-direction: column;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    min-height: 100hv; 
+    min-height: 100vh; 
   
 }
 
@@ -31,10 +31,11 @@ body{
    background-color: var(--fundo-teclado);
   box-shadow: 6px 8px 0 6px #6A6685, 10px 10px 10px #06242E;
   border-radius: 30px;
-  display: flex;
+  display:flex;
   gap: 10px;
   grid-template-columns: repeat(3, 1fr);
   padding: 10px;
+
 }
  .texto{
 color: var(--branco);
