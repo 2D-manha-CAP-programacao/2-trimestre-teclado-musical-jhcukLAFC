@@ -8,13 +8,13 @@ height:122px;
 
     --verde: yellowgreen;
     --branco: white;
-
-
+--azul: blue;
+  --fundo-teclado: #34495e;
 }
 
 body{
 
-    background-color: var(--verde);
+    background-color: var(--azul);
     align-items: center;
     display:flex;
     justify-content: center;
@@ -38,11 +38,11 @@ h2{
 
 .teclado{
 
-    background-color:linear-gradient(90deg,rgba(115, 201, 235, 1) 0%, rgba(149, 136, 235, 1) 62%, rgba(255, 255, 255, 1) 100%);
-    box-shadow: 6px 8px 0 6px #6A6685, 10px 10px 10px #06242E;
-    border-radius: 30px;
-    display: grid;
-    gap: 10px;
-    grid-template-columns: repeat(3, 1fr);
-     padding: 10px;
+   background-color: var(--fundo-teclado); /* Using the new variable here */
+  box-shadow: 6px 8px 0 6px #6A6685, 10px 10px 10px #06242E;
+  border-radius: 30px;
+  display: grid;
+  gap: 10px;
+  grid-template-columns: repeat(3, 1fr);
+  padding: 10px;
 }
